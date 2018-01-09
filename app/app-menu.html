@@ -1,0 +1,5 @@
+<ul class="menu">
+    <li ng-repeat="page in $ctrl.pages" ng-class="$ctrl.isActive(page)">
+      <a href="#!/{{page}}">{{page}}</a>
+    </li>
+  </ul>

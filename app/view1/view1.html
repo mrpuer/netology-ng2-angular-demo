@@ -10,7 +10,7 @@
 
 <ul>
     <li ng-repeat="pokemon in pokemons | filter: myQuery | orderBy: myOrderProperty">
-        <img src="{{pokemon.ThumbnailImage}}">
+        <img ng-src="{{pokemon.ThumbnailImage}}">
 
         <small>ID #{{pokemon.id }}</small>
         <h1>{{pokemon.name}}</h1>
